@@ -24,7 +24,3 @@
 - `requirements.txt`: зависимости.
 - `Dockerfile`: сборка и запуск.
 - `.github/workflows/main.yml`: CI/CD.
-
-## Улучшения
-- Добавить юнит-тесты.
-- Публиковать образ в Docker Hub.
