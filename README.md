@@ -24,3 +24,8 @@
 - `requirements.txt`: зависимости.
 - `Dockerfile`: сборка и запуск.
 - `.github/workflows/main.yml`: CI/CD.
+
+## Обяснение работы workflow
+Workflow настроен в .github/workflows/main.yml и выполняется при push или pull_request в ветку main. Он обесечивает:
+-Сборку проекта в изолированной среде.
+-Локальную проверку работы приложения (запуск и проверка ответа через curl http://localhost:5000).
